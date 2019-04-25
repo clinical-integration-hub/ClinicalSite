@@ -1,0 +1,12 @@
+<PractitionerRole xmlns="http://hl7.org/fhir">
+	<id value="26d0273c-ad01-4c1e-a2b4-759f8e8a5a98"/>
+	<meta>
+		<profile value="http://uk-koeln.de/fhir/StructureDefinition/PractitionerRole/clinical-site/organization/0.1"/>
+	</meta>
+	<practitioner>
+		<reference value="Practitioner/efb0df07-8ea4-4042-9d5a-891f0a04c590"/>
+	</practitioner>
+	<organization>
+		<reference value="Organization/ee2c9911-b333-4070-bb85-a23bfe9f100f"/>
+	</organization>
+</PractitionerRole>

@@ -1,0 +1,77 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+	<url value="http://uk-koeln.de/fhir/CodeSystem/clinical-site/practitioner-role-researchstudy"/>
+	<version value="0.1"/>
+	<name value="cs-clinical-site-practitioner-role-researchstudy"/>
+	<status value="draft"/>
+	<experimental value="false"/>
+	<date value="2019-04-23"/>
+	<publisher value="Uniklinik Köln"/>
+	<description value="Rollen von Personen in einer Studie"/>
+	<caseSensitive value="true"/>
+	<valueSet value="http://uk-koeln.de/fhir/ValueSet/clinical-site/practitioner-role-researchstudy"/>
+	<content value="complete"/>
+	<concept>
+		<code value="pruefer"/>
+		<display value="Prüfer (Hauptprüfer im Zentrum)"/>
+	</concept>
+	<concept>
+		<code value="pruefgruppe"/>
+		<display value="Ärztliches Mitglied der Prüfgruppe"/>
+	</concept>
+	<concept>
+		<code value="pruefer-stellvertretend"/>
+		<display value="Stellvertretender Prüfer"/>
+	</concept>
+	<concept>
+		<code value="datensatz"/>
+		<display value="Zuständ. für Datensatz"/>
+	</concept>
+	<concept>
+		<code value="lkp"/>
+		<display value="LKP"/>
+	</concept>
+	<concept>
+		<code value="sponsor"/>
+		<display value="Sponsorbevollmächtigter/Ansprechpartner"/>
+	</concept>
+	<concept>
+		<code value="projekt"/>
+		<display value="Projektmanagement"/>
+	</concept>
+	<concept>
+		<code value="monitor"/>
+		<display value="Monitoring"/>
+	</concept>
+	<concept>
+		<code value="daten"/>
+		<display value="Datenmanagement"/>
+	</concept>
+	<concept>
+		<code value="datenbank"/>
+		<display value="Datenbankentwicklung"/>
+	</concept>
+	<concept>
+		<code value="sae"/>
+		<display value="SAE-Management"/>
+	</concept>
+	<concept>
+		<code value="statistik"/>
+		<display value="Statistik"/>
+	</concept>
+	<concept>
+		<code value="data-review"/>
+		<display value="Data Review Committee"/>
+	</concept>
+	<concept>
+		<code value="data-safety"/>
+		<display value="Data Safety Monitoring Board"/>
+	</concept>
+	<concept>
+		<code value="medical-monitoring"/>
+		<display value="Medical Monitoring"/>
+	</concept>
+	<concept>
+		<code value="zentrale-dienste"/>
+		<display value="Zentrale Dienste"/>
+	</concept>
+</CodeSystem>

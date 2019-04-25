@@ -1,0 +1,24 @@
+<PractitionerRole xmlns="http://hl7.org/fhir">
+	<id value="1d1bfef9-cb2c-4681-81cb-9f942af1891e"/>
+	<meta>
+		<profile value="http://uk-koeln.de/fhir/StructureDefinition/PractitionerRole/clinical-site/researchstudy/0.1"/>
+	</meta>
+	<extension url="http://uk-koeln.de/fhir/StructureDefinition/Extension/clinical-site/practitionerrole-researchstudy/0.1">
+		<valueReference value="ResearchStudy/f864befb-f9ae-4ece-aa31-d0dcddb08c1a"/>
+	</extension>
+	<practitioner>
+		<reference value="Practitioner/efb0df07-8ea4-4042-9d5a-891f0a04c590"/>
+	</practitioner>
+	<code>
+		<coding>
+			<system value="http://uk-koeln.de/fhir/CodeSystem/clinical-site/practitioner-role-researchstudy"/>
+			<code value="pruefer"/>
+		</coding>
+	</code>
+	<code>
+		<coding>
+			<system value="http://uk-koeln.de/fhir/CodeSystem/clinical-site/practitioner-role-researchstudy"/>
+			<code value="pruefgruppe"/>
+		</coding>
+	</code>
+</PractitionerRole>

@@ -1,0 +1,100 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+	<url value="http://uk-koeln.de/fhir/ValueSet/clinical-site/practitioner-role-researchstudy"/>
+	<version value="0.1"/>
+	<name value="vs-clinical-site-practitioner-role-researchstudy"/>
+	<status value="draft"/>
+	<experimental value="false"/>
+	<date value="2019-04-23"/>
+	<publisher value="Uniklinik Köln"/>
+	<description value="Rollen von Personen in einer Studie"/>
+	<compose>
+		<include>
+			<system value="http://uk-koeln.de/fhir/CodeSystem/clinical-site/practitioner-role-researchstudy"/>
+		</include>
+	</compose>
+	<expansion>
+		<identifier value="uk-koeln-clinical-site-practitioner-role-researchstudy-1"/>
+		<timestamp value="2019-04-23"/>
+		<total value="16"/>
+		<contains>
+			<system value="http://uk-koeln.de/fhir/CodeSystem/clinical-site/practitioner-role-researchstudy"/>
+			<code value="pruefer"/>
+			<display value="Prüfer (Hauptprüfer im Zentrum)"/>
+		</contains>
+		<contains>
+			<system value="http://uk-koeln.de/fhir/CodeSystem/clinical-site/practitioner-role-researchstudy"/>
+			<code value="pruefgruppe"/>
+			<display value="Ärztliches Mitglied der Prüfgruppe"/>
+		</contains>
+		<contains>
+			<system value="http://uk-koeln.de/fhir/CodeSystem/clinical-site/practitioner-role-researchstudy"/>
+			<code value="pruefer-stellvertretend"/>
+			<display value="Stellvertretender Prüfer"/>
+		</contains>
+		<contains>
+			<system value="http://uk-koeln.de/fhir/CodeSystem/clinical-site/practitioner-role-researchstudy"/>
+			<code value="datensatz"/>
+			<display value="Zuständ. für Datensatz"/>
+		</contains>
+		<contains>
+			<system value="http://uk-koeln.de/fhir/CodeSystem/clinical-site/practitioner-role-researchstudy"/>
+			<code value="lkp"/>
+			<display value="LKP"/>
+		</contains>
+		<contains>
+			<system value="http://uk-koeln.de/fhir/CodeSystem/clinical-site/practitioner-role-researchstudy"/>
+			<code value="sponsor"/>
+			<display value="Sponsorbevollmächtigter/Ansprechpartner"/>
+		</contains>
+		<contains>
+			<system value="http://uk-koeln.de/fhir/CodeSystem/clinical-site/practitioner-role-researchstudy"/>
+			<code value="projekt"/>
+			<display value="Projektmanagement"/>
+		</contains>
+		<contains>
+			<system value="http://uk-koeln.de/fhir/CodeSystem/clinical-site/practitioner-role-researchstudy"/>
+			<code value="monitor"/>
+			<display value="Monitoring"/>
+		</contains>
+		<contains>
+			<system value="http://uk-koeln.de/fhir/CodeSystem/clinical-site/practitioner-role-researchstudy"/>
+			<code value="daten"/>
+			<display value="Datenmanagement"/>
+		</contains>
+		<contains>
+			<system value="http://uk-koeln.de/fhir/CodeSystem/clinical-site/practitioner-role-researchstudy"/>
+			<code value="datenbank"/>
+			<display value="Datenbankentwicklung"/>
+		</contains>
+		<contains>
+			<system value="http://uk-koeln.de/fhir/CodeSystem/clinical-site/practitioner-role-researchstudy"/>
+			<code value="sae"/>
+			<display value="SAE-Management"/>
+		</contains>
+		<contains>
+			<system value="http://uk-koeln.de/fhir/CodeSystem/clinical-site/practitioner-role-researchstudy"/>
+			<code value="statistik"/>
+			<display value="Statistik"/>
+		</contains>
+		<contains>
+			<system value="http://uk-koeln.de/fhir/CodeSystem/clinical-site/practitioner-role-researchstudy"/>
+			<code value="data-review"/>
+			<display value="Data Review Committee"/>
+		</contains>
+		<contains>
+			<system value="http://uk-koeln.de/fhir/CodeSystem/clinical-site/practitioner-role-researchstudy"/>
+			<code value="data-safety"/>
+			<display value="Data Safety Monitoring Board"/>
+		</contains>
+		<contains>
+			<system value="http://uk-koeln.de/fhir/CodeSystem/clinical-site/practitioner-role-researchstudy"/>
+			<code value="medical-monitoring"/>
+			<display value="Medical Monitoring"/>
+		</contains>
+		<contains>
+			<system value="http://uk-koeln.de/fhir/CodeSystem/clinical-site/practitioner-role-researchstudy"/>
+			<code value="zentrale-dienste"/>
+			<display value="Zentrale Dienste"/>
+		</contains>
+	</expansion>
+</ValueSet>

@@ -1,0 +1,45 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+	<url value="http://uk-koeln.de/fhir/ValueSet/clinical-site/rechtsgrundlage"/>
+	<version value="0.1"/>
+	<name value="vs-clinical-site-rechtsgrundlage"/>
+	<status value="draft"/>
+	<experimental value="false"/>
+	<date value="2019-04-23"/>
+	<publisher value="Uniklinik Köln"/>
+	<description value="Rechtsgrundlagen für Studien"/>
+	<compose>
+		<include>
+			<system value="http://uk-koeln.de/fhir/CodeSystem/clinical-site/rechtsgrundlage"/>
+		</include>
+	</compose>
+	<expansion>
+		<identifier value="uk-koeln-clinical-site-rechtsgrundlage-1"/>
+		<timestamp value="2019-04-23"/>
+		<total value="5"/>
+		<contains>
+			<system value="http://uk-koeln.de/fhir/CodeSystem/clinical-site/rechtsgrundlage"/>
+			<code value="amg"/>
+			<display value="AMG"/>
+		</contains>
+		<contains>
+			<system value="http://uk-koeln.de/fhir/CodeSystem/clinical-site/rechtsgrundlage"/>
+			<code value="amg2004"/>
+			<display value="AMG vor August 2004"/>
+		</contains>
+		<contains>
+			<system value="http://uk-koeln.de/fhir/CodeSystem/clinical-site/rechtsgrundlage"/>
+			<code value="mpg"/>
+			<display value="MPG"/>
+		</contains>
+		<contains>
+			<system value="http://uk-koeln.de/fhir/CodeSystem/clinical-site/rechtsgrundlage"/>
+			<code value="mpg23b"/>
+			<display value="MPG nach §23b"/>
+		</contains>
+		<contains>
+			<system value="http://uk-koeln.de/fhir/CodeSystem/clinical-site/rechtsgrundlage"/>
+			<code value="other"/>
+			<display value="nicht-AMG nicht-MPG"/>
+		</contains>
+	</expansion>
+</ValueSet>

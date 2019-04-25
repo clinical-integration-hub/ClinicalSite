@@ -1,0 +1,28 @@
+<Practitioner xmlns="http://hl7.org/fhir">
+	<id value="efb0df07-8ea4-4042-9d5a-891f0a04c590"/>
+	<meta>
+		<profile value="http://uk-koeln.de/fhir/StructureDefinition/Practitioner/clinical-site/0.1"/>
+	</meta>
+	<name>
+		<text value="Dr. mad. Bugs Bunny"/>
+		<family value="Bunny"/>
+		<given value="Bugs"/>
+		<prefix value="Dr. mad."/>
+	</name>
+	<telecom>
+		<system value="phone"/>
+		<value value="+01 808 544-0200"/>
+	</telecom>
+	<telecom>
+		<system value="fax"/>
+		<value value="+01 808 544-0200"/>
+	</telecom>
+	<telecom>
+		<system value="pager"/>
+		<value value="911"/>
+	</telecom>
+	<telecom>
+		<system value="email"/>
+		<value value="gustav.vella@gmail.com"/>
+	</telecom>
+</Practitioner>

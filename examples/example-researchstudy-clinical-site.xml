@@ -1,0 +1,53 @@
+<ResearchStudy xmlns="http://hl7.org/fhir">
+	<id value="f864befb-f9ae-4ece-aa31-d0dcddb08c1a"/>
+	<meta>
+		<profile value="http://uk-koeln.de/fhir/StructureDefinition/ResearchStudy/clinical-site/0.1"/>
+	</meta>
+	<identifier>
+		<system value="http://uk-koeln.de/fhir/identifiers/pruefplancode"/>
+		<value value="Test1"/>
+	</identifier>
+	<identifier>
+		<system value="http://uk-koeln.de/fhir/identifiers/eudraCtNr"/>
+		<value value="Test2"/>
+	</identifier>
+	<identifier>
+		<system value="http://uk-koeln.de/fhir/identifiers/nummerEthikkommission"/>
+		<value value="Test3"/>
+	</identifier>
+	<identifier>
+		<system value="http://uk-koeln.de/fhir/identifiers/nummerKoeln"/>
+		<value value="187"/>
+	</identifier>
+	<identifier>
+		<system value="http://uk-koeln.de/fhir/identifiers/isrctn"/>
+		<value value="Test5"/>
+	</identifier>
+	<identifier>
+		<system value="http://uk-koeln.de/fhir/identifiers/clinicaltrialsGov"/>
+		<value value="NCT00289003"/>
+	</identifier>
+	<identifier>
+		<system value="http://uk-koeln.de/fhir/identifiers/drks"/>
+		<value value="foo bar"/>
+	</identifier>
+	<title value="TestStudie 1 (Für Schulungszwecke)"/>
+	<status value="in-progress"/>
+	<jurisdiction>
+		<coding>
+			<system value="http://uk-koeln.de/fhir/CodeSystem/clinical-site/rechtsgrundlage"/>
+			<code value="amg"/>
+		</coding>
+	</jurisdiction>
+	<description value="Menschliche Interaktion mit dem Studien- und Site Management System und Evaluierung der Benutzerschnitstellen auf Tauglichkeit, Intuition und Menschenfreundlichkeit in Niedrig-, Mittel und Hochstresssituationen. Eine prospektive, randomisierte, Pla cebo kontrollierte Studie der Phase III.">
+		<extension url="http://uk-koeln.de/fhir/StructureDefinition/Extension/clinical-site/researchstudy-description-en/0.1">
+			<valueMarkdown value="UX-Analysis of the Study- and Site Management System Application (SMS). User Interface Evaluation focusing on Usability, Intuitiveness and Respect for Humanoids in Low-, Medium-, and High-Stress Environments. A Prospective, Randomized, Placebo-Controlled, Phase III Trial with Clinical Subjects form Rock-bottom to Sky-High in the Medical Hierarchy."/>
+		</extension>
+	</description>
+	<sponsor>
+		<reference value="Organization/example-sponsor"/>
+	</sponsor>
+	<principalInvestigator>
+		<reference value="Practitioner/example-lkp"/>
+	</principalInvestigator>
+</ResearchStudy>
