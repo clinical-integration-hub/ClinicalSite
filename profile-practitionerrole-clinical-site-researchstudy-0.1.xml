@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://uk-koeln.de/fhir/StructureDefinition/PractitionerRole/clinical-site/researchstudy/0.1" />
+  <url value="http://uk-koeln.de/fhir/StructureDefinition/PractitionerRole/clinical-site/researchstudy" />
   <version value="0.1" />
   <name value="practitionerrole-clinical-site-researchstudy-0.1" />
   <title value="Clinical Site: Practitioner Role in a Research Study" />
@@ -345,7 +345,7 @@
       </base>
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/clinical-site/practitionerrole-researchstudy/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/clinical-site/practitionerrole-researchstudy" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -466,7 +466,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/clinical-site/practitionerrole-researchstudy/0.1" />
+      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/clinical-site/practitionerrole-researchstudy" />
       <condition value="ele-1" />
       <constraint>
         <key value="ele-1" />
@@ -499,7 +499,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/ResearchStudy/clinical-site/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/ResearchStudy/clinical-site" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -938,7 +938,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Practitioner/clinical-site/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Practitioner/clinical-site" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -2761,7 +2761,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/clinical-site/practitionerrole-researchstudy/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/clinical-site/practitionerrole-researchstudy" />
       </type>
       <mustSupport value="true" />
     </element>
@@ -2780,7 +2780,7 @@
       <min value="1" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Practitioner/clinical-site/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Practitioner/clinical-site" />
       </type>
       <mustSupport value="true" />
     </element>

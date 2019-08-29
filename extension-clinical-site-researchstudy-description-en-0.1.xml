@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://uk-koeln.de/fhir/StructureDefinition/Extension/clinical-site/researchstudy-description-en/0.1" />
+  <url value="http://uk-koeln.de/fhir/StructureDefinition/Extension/clinical-site/researchstudy-description-en" />
   <version value="0.1" />
   <name value="extension-clinical-site-researchstudy-description-en-0.1" />
   <title value="Clinical Site: English Description of the Study" />
@@ -131,7 +131,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/clinical-site/researchstudy-description-en/0.1" />
+      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/clinical-site/researchstudy-description-en" />
       <condition value="ele-1" />
       <constraint>
         <key value="ele-1" />
@@ -186,7 +186,7 @@
   <differential>
     <element id="Extension.url">
       <path value="Extension.url" />
-      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/clinical-site/researchstudy-description-en/0.1" />
+      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/clinical-site/researchstudy-description-en" />
     </element>
     <element id="Extension.value[x]:valueMarkdown">
       <path value="Extension.valueMarkdown" />

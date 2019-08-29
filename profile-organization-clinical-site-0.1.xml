@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://uk-koeln.de/fhir/StructureDefinition/Organization/clinical-site/0.1" />
+  <url value="http://uk-koeln.de/fhir/StructureDefinition/Organization/clinical-site" />
   <version value="0.1" />
   <name value="organization-clinical-site-0.1" />
   <title value="Clinical Site: Organizational Unit" />
@@ -7990,7 +7990,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Organization/clinical-site/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Organization/clinical-site" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -8564,7 +8564,7 @@
       <path value="Organization.partOf" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Organization/clinical-site/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Organization/clinical-site" />
       </type>
     </element>
   </differential>

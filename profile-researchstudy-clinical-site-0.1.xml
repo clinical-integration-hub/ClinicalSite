@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://uk-koeln.de/fhir/StructureDefinition/ResearchStudy/clinical-site/0.1" />
+  <url value="http://uk-koeln.de/fhir/StructureDefinition/ResearchStudy/clinical-site" />
   <version value="0.1" />
   <name value="researchstudy-clinical-site-0.1" />
   <title value="Clinical Site: Research Study" />
@@ -4628,7 +4628,7 @@
       </base>
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/clinical-site/researchstudy-description-en/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/clinical-site/researchstudy-description-en" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -4749,7 +4749,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/clinical-site/researchstudy-description-en/0.1" />
+      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/clinical-site/researchstudy-description-en" />
       <condition value="ele-1" />
       <constraint>
         <key value="ele-1" />
@@ -4946,7 +4946,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Organization/clinical-site/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Organization/clinical-site" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -4996,7 +4996,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Practitioner/clinical-site/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Practitioner/clinical-site" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -5623,7 +5623,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/clinical-site/researchstudy-description-en/0.1" />
+        <profile value="http://uk-koeln.de/fhir/StructureDefinition/Extension/clinical-site/researchstudy-description-en" />
       </type>
       <mustSupport value="true" />
     </element>
@@ -5636,7 +5636,7 @@
       <path value="ResearchStudy.sponsor" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Organization/clinical-site/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Organization/clinical-site" />
       </type>
       <mustSupport value="true" />
     </element>
@@ -5644,7 +5644,7 @@
       <path value="ResearchStudy.principalInvestigator" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Practitioner/clinical-site/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/Practitioner/clinical-site" />
       </type>
       <mustSupport value="true" />
     </element>

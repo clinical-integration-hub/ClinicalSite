@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="http://uk-koeln.de/fhir/StructureDefinition/Extension/clinical-site/practitionerrole-researchstudy/0.1" />
+  <url value="http://uk-koeln.de/fhir/StructureDefinition/Extension/clinical-site/practitionerrole-researchstudy" />
   <version value="0.1" />
   <name value="extension-clinical-site-site-practitionerrole-researchstudy-0.1" />
   <title value="Clinical Site: Reference to a Research Study in Practitioner Role" />
@@ -131,7 +131,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/clinical-site/practitionerrole-researchstudy/0.1" />
+      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/clinical-site/practitionerrole-researchstudy" />
       <condition value="ele-1" />
       <constraint>
         <key value="ele-1" />
@@ -164,7 +164,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/ResearchStudy/clinical-site/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/ResearchStudy/clinical-site" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -208,7 +208,7 @@
     </element>
     <element id="Extension.url">
       <path value="Extension.url" />
-      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/clinical-site/practitionerrole-researchstudy/0.1" />
+      <fixedUri value="http://uk-koeln.de/fhir/StructureDefinition/Extension/clinical-site/practitionerrole-researchstudy" />
     </element>
     <element id="Extension.value[x]:valueReference">
       <path value="Extension.valueReference" />
@@ -216,7 +216,7 @@
       <min value="1" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/ResearchStudy/clinical-site/0.1" />
+        <targetProfile value="http://uk-koeln.de/fhir/StructureDefinition/ResearchStudy/clinical-site" />
       </type>
     </element>
   </differential>
