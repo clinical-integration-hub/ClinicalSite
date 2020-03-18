@@ -31,7 +31,7 @@
 		<system value="http://uk-koeln.de/fhir/identifiers/drks"/>
 		<value value="foo bar"/>
 	</identifier>
-	<title value="TestStudie 1 (Für Schulungszwecke)"/>
+	<title value="TestStudie 3 (Für Schulungszwecke)"/>
 	<status value="in-progress"/>
 	<jurisdiction>
 		<coding>

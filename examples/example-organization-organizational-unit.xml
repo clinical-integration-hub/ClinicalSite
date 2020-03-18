@@ -1,0 +1,35 @@
+<Organization xmlns="http://hl7.org/fhir">
+	<id value="ee2c9911-b333-4070-bb85-a23bfe9f100f"/>
+	<meta>
+		<profile value="http://uk-koeln.de/fhir/StructureDefinition/Organization/clinical-site"/>
+	</meta>
+	<name value="Klinik I für Innere Medizin (Universitätsklinikum Köln)"/>
+	<telecom>
+		<system value="phone"/>
+		<value value="+01 808 544-0200"/>
+	</telecom>
+	<telecom>
+		<system value="email"/>
+		<value value="nngm-info@uk-koeln.de"/>
+	</telecom>
+	<telecom>
+		<system value="url"/>
+		<value value="https://www.nngm.de/"/>
+		<address>
+	</telecom>
+	<address>
+		<type value="physical"/>
+		<line value="Kerpener Str. 62"/>
+		<city value="Köln"/>
+		<postalCode value="50937"/>
+	</address>
+	<address>
+		<type value="postal"/>
+		<line value="Universitätsklinikum Köln"/>
+		<line value="Klinik I für Innere Medizin"/>
+		<line value="Kerpener Str. 62"/>
+		<city value="Köln"/>
+		<postalCode value="50937"/>
+	</address>
+	
+</Organization>

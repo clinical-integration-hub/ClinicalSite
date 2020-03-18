@@ -1,7 +1,7 @@
 <Practitioner xmlns="http://hl7.org/fhir">
 	<id value="efb0df07-8ea4-4042-9d5a-891f0a04c590"/>
 	<meta>
-		<profile value="http://uk-koeln.de/fhir/StructureDefinition/Practitioner/clinical-site/0.1"/>
+		<profile value="http://uk-koeln.de/fhir/StructureDefinition/Practitioner/clinical-site"/>
 	</meta>
 	<name>
 		<text value="Dr. mad. Bugs Bunny"/>
@@ -23,6 +23,6 @@
 	</telecom>
 	<telecom>
 		<system value="email"/>
-		<value value="gustav.vella@gmail.com"/>
+		<value value="g.v@gmail.com"/>
 	</telecom>
 </Practitioner>

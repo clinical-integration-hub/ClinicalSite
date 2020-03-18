@@ -1,8 +1,42 @@
 <PractitionerRole xmlns="http://hl7.org/fhir">
 	<id value="26d0273c-ad01-4c1e-a2b4-759f8e8a5a98"/>
 	<meta>
-		<profile value="http://uk-koeln.de/fhir/StructureDefinition/PractitionerRole/clinical-site/organization/0.1"/>
+		<profile value="http://uk-koeln.de/fhir/StructureDefinition/PractitionerRole/clinical-site/organization"/>
 	</meta>
+	<active value="true" />
+	<code>
+		<coding>
+			<system value ="http://hl7.org/fhir/ValueSet/practitioner-role"/>
+			<code value = "doctor"/>
+		</coding>
+	</code>
+	<specialty>
+		<coding>
+			<system value="http://fhir.de/ValueSet/kbv/s-bar2-arztnrfachgruppe"/>
+			<code value="03"/>
+			<display value="Innere Medizin und Hämatologie und Onkologie" />
+		</coding>
+	</specialty>
+	<specialty>
+		<coding>
+			<system value="http://fhir.de/ValueSet/kbv/s-bar2-arztnrfachgruppe"/>
+			<code value="27"/>
+			<display value="Pathologie" />
+		</coding>
+	</specialty>
+	<specialty>
+		<coding>
+			<system value="http://fhir.de/ValueSet/kbv/s-bar2-arztnrfachgruppe"/>
+			<code value="56"/>
+			<display value="Psychiatrie und Psychotherapie"/>
+		</coding>
+	</specialty>
+	<specialty>
+		<coding>
+			<system value="http://fhir.de/ValueSet/kbv/s-bar2-arztnrfachgruppe"/>
+			<code value="58"/>
+		</coding>
+	</specialty>
 	<practitioner>
 		<reference value="Practitioner/efb0df07-8ea4-4042-9d5a-891f0a04c590"/>
 	</practitioner>

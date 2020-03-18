@@ -1,7 +1,7 @@
 <PractitionerRole xmlns="http://hl7.org/fhir">
 	<id value="1d1bfef9-cb2c-4681-81cb-9f942af1891e"/>
 	<meta>
-		<profile value="http://uk-koeln.de/fhir/StructureDefinition/PractitionerRole/clinical-site/researchstudy/0.1"/>
+		<profile value="http://uk-koeln.de/fhir/StructureDefinition/PractitionerRole/clinical-site/researchstudy"/>
 	</meta>
 	<extension url="http://uk-koeln.de/fhir/StructureDefinition/Extension/clinical-site/practitionerrole-researchstudy/0.1">
 		<valueReference value="ResearchStudy/f864befb-f9ae-4ece-aa31-d0dcddb08c1a"/>
@@ -21,4 +21,31 @@
 			<code value="pruefgruppe"/>
 		</coding>
 	</code>
+	<specialty>
+		<coding>
+			<system value="http://fhir.de/ValueSet/kbv/s-bar2-arztnrfachgruppe"/>
+			<code value="03"/>
+			<display value="Innere Medizin und Hämatologie und Onkologie" />
+		</coding>
+	</specialty>
+	<specialty>
+		<coding>
+			<system value="http://fhir.de/ValueSet/kbv/s-bar2-arztnrfachgruppe"/>
+			<code value="27"/>
+			<display value="Pathologie" />
+		</coding>
+	</specialty>
+	<specialty>
+		<coding>
+			<system value="http://fhir.de/ValueSet/kbv/s-bar2-arztnrfachgruppe"/>
+			<code value="56"/>
+			<display value="Psychiatrie und Psychotherapie"/>
+		</coding>
+	</specialty>
+	<specialty>
+		<coding>
+			<system value="http://fhir.de/ValueSet/kbv/s-bar2-arztnrfachgruppe"/>
+			<code value="58"/>
+		</coding>
+	</specialty>
 </PractitionerRole>
