@@ -1,8 +1,20 @@
 <Practitioner xmlns="http://hl7.org/fhir">
-	<id value="efb0df07-8ea4-4042-9d5a-891f0a04c590"/>
 	<meta>
-		<profile value="http://uk-koeln.de/fhir/StructureDefinition/Practitioner/clinical-site"/>
+		<profile value="http://healex.systems/fhir/StructureDefinition/Practitioner/clinical-site"/>
 	</meta>
+	<identifier> 
+    	<type> 
+      		<coding> 
+        		<system value="http://terminology.hl7.org/CodeSystem/v2-0203"/> 
+        		<code value="PN"/> 
+      		</coding> 
+    	</type> 
+    	<system value="http://uk-koeln.de/fhir/NamingSystem/clinical-site/userid"/> 
+    	<value value="38"/> 
+    	<assigner> 
+      		<display value="ClinicalSite.org"/> 
+    	</assigner> 
+  	</identifier> 
 	<name>
 		<text value="Dr. mad. Bugs Bunny"/>
 		<family value="Bunny"/>
