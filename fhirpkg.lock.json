@@ -1,0 +1,13 @@
+{
+  "updated": "2020-03-19T09:00:43.2616234+01:00",
+  "dependencies": {
+    "basisprofil.de": "0.2.30",
+    "Simplifier.Core.STU3": "3.0.1",
+    "Simplifier.Core.STU3.Profiles": "3.0.1",
+    "Simplifier.Core.STU3.Extensions": "3.0.1",
+    "Simplifier.Core.STU3.CodeSystems": "3.0.1",
+    "Simplifier.Core.STU3.ValueSets": "3.0.2",
+    "Simplifier.Core.Stu3.DataTypes": "3.0.1"
+  },
+  "missing": {}
+}

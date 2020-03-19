@@ -1,0 +1,21 @@
+<NamingSystem xmlns="http://hl7.org/fhir">
+    <meta>
+        <profile value="http://uk-koeln.de/fhir/NamingSystem/clinical-site/userid" />
+    </meta>
+    <name value="nngm-userid" />
+    <status value="active" />
+    <kind value="identifier" />
+    <publisher value="Universitätsklinikum Köln" />
+    <type>
+        <coding>
+            <system value="http://hl7.org/fhir/v2/0203" />
+            <code value="DN" />
+        </coding>
+    </type>
+    <description value="The practitioner identifier within the clinical site databse" />
+    <uniqueId>
+        <type value="uri" />
+        <value value="http://uk-koeln.de/fhir/NamingSystem/clinical-site/userid" />
+        <preferred value="true" />
+    </uniqueId>
+</NamingSystem>
